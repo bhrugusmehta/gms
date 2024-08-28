@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+  <servlet>
+    <servlet-name>ParticipantServlet</servlet-name>
+    <servlet-class>com.gym.ParticipantServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ParticipantServlet</servlet-name>
+    <url-pattern>/participant</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BatchServlet</servlet-name>
+    <servlet-class>com.gym.BatchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BatchServlet</servlet-name>
+    <url-pattern>/batch</url-pattern>
+  </servlet-mapping>
+</web-app>
